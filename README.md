@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application showcases the basic functionality of Rails Turbo, which allows developers to easily make single page applications without writing any custom AJAX requests.
 
-Things you may want to cover:
+The application features seamless creation, updates, and deletion of quotes without reloading the page, and real-time streaming of data with the help of Action Cable. This means all quotes are available to users of the same company all at the same time, updated constantly.
 
-* Ruby version
+Users that are not of the same company will not be granted access to the data streams of other companies.
 
-* System dependencies
+To use, install Ruby and Rails and clone the repository.
 
-* Configuration
+Run bundle install, and database migrations.
 
-* Database creation
+You can log in with the following test account accountant@kpmg.com with a password of "password".
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
